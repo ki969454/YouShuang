@@ -20,3 +20,10 @@ ch05
 
 接受连接：
     int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
+
+发起连接：
+    int connect(int sockfd, const struct sockaddr *serv_addr, socklend_t addrlen);
+
+数据读写：
+    ssize_t recv(int sockfd, void* buf, size_t len, int flags);
+    ssize_t send(int sockfd, const void *buf, size_t len, int flags);
