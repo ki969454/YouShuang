@@ -17,3 +17,6 @@ ch05
 
 监听socket：
     int listen(int sockfd, int backlog);
+
+接受连接：
+    int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
