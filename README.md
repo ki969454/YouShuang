@@ -27,3 +27,11 @@ ch05
 数据读写：
     ssize_t recv(int sockfd, void* buf, size_t len, int flags);
     ssize_t send(int sockfd, const void *buf, size_t len, int flags);
+
+I/O多路复用：
+I/O 多路复用使得程序能同时监听多个文件描述符，能够提高程序的性能，Linux 下实现 I/O 多路复用的
+系统调用主要有 select、poll 和 epoll
+
+select:
+poll:
+epoll:
